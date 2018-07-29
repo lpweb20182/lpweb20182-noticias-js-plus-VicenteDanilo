@@ -14,3 +14,18 @@ form div {
 .noticia .conteudo {
     display: none;
 }
+
+.noticia .nomeAutor {
+    display: none;
+}
+
+.noticia .email {
+    display: none;
+}
+
+.noticia .data {
+    display: none;
+}
+
+
+
