@@ -11,12 +11,12 @@ function atualizarLista(noticia) {
 
     if (dataNoticia<dataAtual){
         console.log(noticias)
-        for (i=0; i<noticias.length; i++){
+        /*for (i=0; i<noticias.length; i++){
             console.log(noticia.data);
             console.log(noticias[i].data);
             
             if (noticias[i].data<noticia.data){
-                
+                */
                 li.innerHTML = '<p class="titulo" onclick="mostrarNoticia(' + noticia.id + ')">'
                 + noticia.titulo
                 + ', Autor: '
@@ -34,8 +34,8 @@ function atualizarLista(noticia) {
                 + '<button onclick="ocultarNoticia(' + noticia.id + ')">Fechar</button>';
                 + '</p>';
                 lista.appendChild(li);
-            }
-        }
+         /*   }
+        }*/
     }
 }
 
